@@ -80,6 +80,12 @@ ping google.com
 
 ![TLS](12_tls)
 
+## zeek 
+then using zeek in ubuntu server22.04 and following the steps as stated below 
 
+## step 1: start zeek 
+using the ```
+command/opt/zeek/bin/zeekctl deploy
+```
 
 
