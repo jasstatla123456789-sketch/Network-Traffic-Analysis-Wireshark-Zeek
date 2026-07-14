@@ -81,6 +81,21 @@ ping google.com
 
 ![TLS](screenshots/12_tls.png)
 
+## Wireshark Packet Capture
+
+The packet capture generated during this project has been uploaded to the repository.
+
+### Capture File
+
+📄 **Capture File:** [`capture4.pcapng`](pcap/capture4.pcapng)
+
+The capture includes:
+- ICMP (Ping) packets
+- DNS queries and responses
+- TCP connections
+- UDP traffic
+- TLS/HTTPS communication
+
 ## zeek 
 then using zeek in ubuntu server22.04 and following the steps as stated below 
 
