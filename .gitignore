@@ -1,1 +1,23 @@
+# Temporary files
+*.tmp
+*.temp
 
+# Log files
+*.log.old
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Python cache
+__pycache__/
+
+# Backup files
+*.bak
+*.swp
