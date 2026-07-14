@@ -1,1 +1,75 @@
+# ==========================================================
+# Network Traffic Analysis using Wireshark and Zeek
+# Commands Used
+# ==========================================================
 
+# -----------------------------
+# Wireshark
+# -----------------------------
+
+# Start Wireshark (GUI)
+wireshark
+
+# Ping Google
+ping google.com
+
+# Open websites in browser
+https://google.com
+https://chatgpt.com
+https://youtube.com
+
+# Save packet capture as .pcapng
+
+# Common Wireshark Display Filters
+icmp
+tcp
+udp
+dns
+ssl
+tls
+http
+https
+
+# -----------------------------
+# Zeek
+# -----------------------------
+
+# Start Zeek
+sudo /opt/zeek/bin/zeekctl deploy
+
+# Check Zeek status
+sudo /opt/zeek/bin/zeekctl status
+
+# Generate HTTP/HTTPS traffic
+curl -L https://google.com
+curl -L https://wikipedia.org
+curl -I https://1.1.1.1
+curl -I https://0.0.0.0
+
+# Generate DNS traffic
+nslookup google.com
+
+# Generate ICMP traffic
+ping -c 20 0.0.0.0
+
+# List generated log files
+ls -l /opt/zeek/spool/zeek/
+
+# View Zeek log files
+less /opt/zeek/spool/zeek/conn.log
+less /opt/zeek/spool/zeek/notice.log
+less /opt/zeek/spool/zeek/capture_loss.log
+less /opt/zeek/spool/zeek/dns.log
+less /opt/zeek/spool/zeek/known_services.log
+less /opt/zeek/spool/zeek/loaded_scripts.log
+less /opt/zeek/spool/zeek/ntp.log
+less /opt/zeek/spool/zeek/packet_filter.log
+less /opt/zeek/spool/zeek/reporter.log
+less /opt/zeek/spool/zeek/stats.log
+less /opt/zeek/spool/zeek/stderr.log
+less /opt/zeek/spool/zeek/stdout.log
+less /opt/zeek/spool/zeek/telemetry.log
+less /opt/zeek/spool/zeek/weird.log
+
+# Stop Zeek
+sudo /opt/zeek/bin/zeekctl stop
