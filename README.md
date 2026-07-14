@@ -407,3 +407,8 @@ sudo /opt/zeek/bin/zeekctl stop
 
 ![Stop Zeek](zeek_logs/013_stop_zeek.png)
 
+## Commands Used
+
+All commands used during this project are available in:
+
+📄 [`commands/commands_used.txt`](commands/commands_used.txt)
