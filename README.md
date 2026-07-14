@@ -355,25 +355,8 @@ less /opt/zeek/spool/zeek/stdout.log
 
 ---
 
-## Step 8.14 Stop Zeek
 
-### Description
-
-After completing the traffic analysis, the Zeek service was stopped.
-
-### Bash Command
-
-```bash
-sudo /opt/zeek/bin/zeekctl stop
-```
-
-### Screenshot
-
-![Stop Zeek](zeek_logs/013_stop_zeek.png)
-
----
-
-## Step 8.15 View Telemetry Log
+## Step 8.14 View Telemetry Log
 
 ### Description
 
@@ -391,7 +374,7 @@ less /opt/zeek/spool/zeek/telemetry.log
 
 ---
 
-## Step 8.16 View Weird Log
+## Step 8.15 View Weird Log
 
 ### Description
 
@@ -405,6 +388,21 @@ less /opt/zeek/spool/zeek/weird.log
 
 ### Screenshot
 
-![Weird Log](zeek_logs/14_weirdlog.png)
+![Weird Log](zeek_logs/14_wierdlog.png)
 
+## Step 8.16 Stop Zeek
+
+### Description
+
+After completing the traffic analysis, the Zeek service was stopped.
+
+### Bash Command
+
+```bash
+sudo /opt/zeek/bin/zeekctl stop
+```
+
+### Screenshot
+
+![Stop Zeek](zeek_logs/013_stop_zeek.png)
 
