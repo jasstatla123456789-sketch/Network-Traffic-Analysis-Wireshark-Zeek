@@ -153,7 +153,7 @@ less /opt/zeek/spool/zeek/conn.log
 
 ### Screenshot
 
-![Connection Log](screenshots/01_connlog.png)
+![Connection Log](zeek_logs/01_connlog.png)
 
 ---
 
@@ -171,7 +171,7 @@ less /opt/zeek/spool/zeek/notice.log
 
 ### Screenshot
 
-![Notice Log](screenshots/02_noticelog.png)
+![Notice Log](zeek_logs/02_noticelog.png)
 
 ---
 
@@ -189,7 +189,7 @@ less /opt/zeek/spool/zeek/capture_loss.log
 
 ### Screenshot
 
-![Capture Loss Log](screenshots/03_capture_loss.png)
+![Capture Loss Log](zeek_logs/03_capture_loss.png)
 
 ---
 
@@ -207,7 +207,7 @@ less /opt/zeek/spool/zeek/dns.log
 
 ### Screenshot
 
-![DNS Log](screenshots/04_dnslogs.png)
+![DNS Log](zeek_logs/04_dnslogs.png)
 
 ---
 
@@ -225,7 +225,7 @@ less /opt/zeek/spool/zeek/known_services.log
 
 ### Screenshot
 
-![Known Services Log](screenshots/05_known_serviceslogs.png)
+![Known Services Log](zeek_logs/05_known_serviceslogs.png)
 
 ---
 
@@ -243,7 +243,7 @@ less /opt/zeek/spool/zeek/loaded_scripts.log
 
 ### Screenshot
 
-![Loaded Scripts Log](screenshots/06_loaded_serviceslogs.png)
+![Loaded Scripts Log](zeek_logs/06_loaded_serviceslogs.png)
 
 ---
 
@@ -261,7 +261,7 @@ less /opt/zeek/spool/zeek/ntp.log
 
 ### Screenshot
 
-![NTP Log](screenshots/07_ntplog.png)
+![NTP Log](zeek_logs/07_ntplog.png)
 
 ---
 
@@ -279,7 +279,7 @@ less /opt/zeek/spool/zeek/packet_filter.log
 
 ### Screenshot
 
-![Packet Filter Log](screenshots/08_packet_filterlog.png)
+![Packet Filter Log](zeek_logs/08_packet_filterlog.png)
 
 ---
 
@@ -297,7 +297,7 @@ less /opt/zeek/spool/zeek/reporter.log
 
 ### Screenshot
 
-![Reporter Log](screenshots/09_reporterlog.png)
+![Reporter Log](zeek_logs/09_reporterlog.png)
 
 ---
 
@@ -315,7 +315,7 @@ less /opt/zeek/spool/zeek/stats.log
 
 ### Screenshot
 
-![Statistics Log](screenshots/10_statslog.png)
+![Statistics Log](zeek_logs/10_statslog.png)
 
 ---
 
@@ -333,7 +333,7 @@ less /opt/zeek/spool/zeek/stderr.log
 
 ### Screenshot
 
-![Standard Error Log](screenshots/11_stderrlog.png)
+![Standard Error Log](zeek_logs/11_stderrlog.png)
 
 ---
 
@@ -351,7 +351,7 @@ less /opt/zeek/spool/zeek/stdout.log
 
 ### Screenshot
 
-![Standard Output Log](screenshots/12_stdoutlog.png)
+![Standard Output Log](zeek_logs/12_stdoutlog.png)
 
 ---
 
@@ -369,7 +369,7 @@ sudo /opt/zeek/bin/zeekctl stop
 
 ### Screenshot
 
-![Stop Zeek](screenshots/013_stop_zeek.png)
+![Stop Zeek](zeek_logs/013_stop_zeek.png)
 
 ---
 
@@ -387,7 +387,7 @@ less /opt/zeek/spool/zeek/telemetry.log
 
 ### Screenshot
 
-![Telemetry Log](screenshots/13_telemetrylog.png)
+![Telemetry Log](zeek_logs/13_telemetrylog.png)
 
 ---
 
@@ -405,6 +405,6 @@ less /opt/zeek/spool/zeek/weird.log
 
 ### Screenshot
 
-![Weird Log](screenshots/14_weirdlog.png)
+![Weird Log](zeek_logs/14_weirdlog.png)
 
 
