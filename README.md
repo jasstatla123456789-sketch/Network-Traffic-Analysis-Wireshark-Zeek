@@ -41,5 +41,45 @@ Analyzed packets and logs.
 
 ---
 
+## step 1: start wireshark
+![start](screenshorts/01_start_wireshark)
+
+---
+
+## step 2: ping google
+
+```bash
+ping google.com
+```
+
+![ping google](screenshorts/02_ping_google)
+
+## step 3: run diffrent services
+
+![chrome](screenshorts/03_open_chrome)
+
+![chatGPT](screenshorts/04_open_chatgpt)
+
+![youtube](screenshorts/05_open_youtube)
+
+## step 4: stop wireshark and save the log file
+
+![stop](screenshorts/06_stop_wireshark)
+
+## step 5: analyze the logs and aply filters
+
+![ICMP](07_icmp)
+
+![TCP](08_tcp)
+
+![SSL](09_ssl)
+
+![DNS](10_dns)
+
+![UDP](11_udp)
+
+![TLS](12_tls)
+
+
 
 
