@@ -43,7 +43,7 @@ Analyzed packets and logs.
 
 ## step 1: start wireshark
 
-![start](screenshorts/01_start_wireshark.png)
+![start](screenshots/01_start_wireshark.png)
 
 ---
 
@@ -53,33 +53,33 @@ Analyzed packets and logs.
 ping google.com
 ```
 
-![ping google](screenshorts/02_ping_google.png)
+![ping google](screenshots/02_ping_google.png)
 
 ## step 3: run diffrent services
 
-![chrome](screenshorts/03_open_chrome.png)
+![chrome](screenshots/03_open_chrome.png)
 
-![chatGPT](screenshorts/04_open_chatgpt.png)
+![chatGPT](screenshots/04_open_chatgpt.png)
 
-![youtube](screenshorts/05_open_youtube.png)
+![youtube](screenshots/05_open_youtube.png)
 
 ## step 4: stop wireshark and save the log file
 
-![stop](screenshorts/06_stop_wireshark.png)
+![stop](screenshots/06_stop_wireshark.png)
 
 ## step 5: analyze the logs and aply filters
 
-![ICMP](screenshorts/07_icmp.png)
+![ICMP](screenshots/07_icmp.png)
 
-![TCP](screenshorts/08_tcp.png)
+![TCP](screenshots/08_tcp.png)
 
-![SSL](screenshorts/09_ssl.png)
+![SSL](screenshots/09_ssl.png)
 
-![DNS](screenshorts/10_dns.png)
+![DNS](screenshots/10_dns.png)
 
-![UDP](screenshorts/11_udp.png)
+![UDP](screenshots/11_udp.png)
 
-![TLS](screenshorts/12_tls.png)
+![TLS](screenshots/12_tls.png)
 
 ## zeek 
 then using zeek in ubuntu server22.04 and following the steps as stated below 
@@ -89,7 +89,7 @@ using the command
 ```bash
 /opt/zeek/bin/zeekctl deploy
 ```
-![start](screenshorts/001_start_zeek.png)
+![start](screenshots/001_start_zeek.png)
 
 ## step 2: check status 
 whether the zeek is running or not
@@ -97,7 +97,7 @@ whether the zeek is running or not
 /opt/zeek/bin/zeekctl status
 ```
 
-![status](screenshorts/002_check_status.png)
+![status](screenshots/002_check_status.png)
 
 ## step 3: generating network traffic
 
@@ -109,26 +109,26 @@ curl -L https://wikipedia.com
 curl -I https://1.1.1.1
 curl -I https://0.0.0.0
 ```
-![google](screenshorts/003_google.png)
+![google](screenshots/003_google.png)
 
-![wikipedia](screenshorts/004_wikipedia.png)
+![wikipedia](screenshots/004_wikipedia.png)
 
-![ip](screenshorts/005_createTCP_HTTPS.png)
+![ip](screenshots/005_createTCP_HTTPS.png)
 
-![ip](screenshorts/007_TCP_HTTPS.png)
+![ip](screenshots/007_TCP_HTTPS.png)
 
 also created DNS logs using 
 ``` bash
 nslookup google.com
 ```
-![nslookup](screenshorts/006_create_dns.png)
+![nslookup](screenshots/006_create_dns.png)
 
 and we also used ping command to create traffic to generate ICMP packets and generated multiple pings.
 
 ```bash
 ping 0.0.0.0 -c20
 ```
-![ping](screenshorts/008_generate_multiping.png)
+![ping](screenshots/008_generate_multiping.png)
 
 ## step 4: log files
 we are going to check the current logs that are generated with the traffic.
