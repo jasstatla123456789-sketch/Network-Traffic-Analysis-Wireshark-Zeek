@@ -313,7 +313,7 @@ less /opt/zeek/spool/zeek/reporter.log
 
 ### Screenshot
 
-![Reporter Log](zeek_logs/09_reporterlog.png)
+![Reporter Log](zeek_logs/09-reporterlog.png)
 
 ---
 
@@ -367,7 +367,7 @@ less /opt/zeek/spool/zeek/stdout.log
 
 ### Screenshot
 
-![Standard Output Log](zeek_logs/12_stdoutlog.png)
+![Standard Output Log](zeek_logs/12-stdoutlog.png)
 
 ---
 
